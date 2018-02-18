@@ -6,3 +6,5 @@ and distribute values periodically via MQTT.
 Additionally a GPIO output is used to control a relay to switch light on off. This output is controlled via MQTT, too.
 
 The main control is (switching chili light on/off when light intensity drops below some value) is done in another project via Node-Red.
+
+<img src="doc/dev_board.jpg">
