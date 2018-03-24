@@ -38,3 +38,4 @@ Release/**
 *.elf
 *.bin
 *.ar
+/Release/

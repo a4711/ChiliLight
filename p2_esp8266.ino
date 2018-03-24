@@ -8,6 +8,7 @@
 #include "src/myiot_mqtt.h"
 #include "TemperatureDistribution.h"
 #include "LightDistribution.h"
+#include "DHTDistribution.h"
 #include "relay.h"
 
 // const int D0 = 16; // GPIO16;
@@ -28,7 +29,7 @@ MyIOT::WebServer webServer;
 Relay relay(D0);
 TemperatureDistribution tdist(oneWire);
 LightDistribution ldist;
-
+DHTDistribution dhtdist;
 
 
 //The setup function is called once at startup of the sketch
@@ -46,7 +47,8 @@ void setup()
 			= std::bind(&MyIOT::Mqtt::publish, &mqtt, std::placeholders::_1, std::placeholders::_2);
 
 	tdist.setup(xpub);
-	ldist.setup(xpub);
+  ldist.setup(xpub);
+  dhtdist.setup(xpub);
 
 	relay.setup(xpub);
 	mqtt.subscribe("cmd",[](const char*msg){
@@ -68,7 +70,8 @@ void setup()
 	tsystem.add(&mqtt, MyIOT::TimerSystem::TimeSpec(0, 100e6));  // 100ms
 
 	tsystem.add([](){tdist.expire();}, MyIOT::TimerSystem::TimeSpec(5));  // 5 s
-	tsystem.add([](){ldist.expire();}, MyIOT::TimerSystem::TimeSpec(5));  // 5 s
+  tsystem.add([](){ldist.expire();}, MyIOT::TimerSystem::TimeSpec(5));  // 5 s
+  tsystem.add([](){dhtdist.expire();}, MyIOT::TimerSystem::TimeSpec(5));  // 5 s
 	tsystem.add([](){relay.expire();}, MyIOT::TimerSystem::TimeSpec(0,10e6));  // 10ms
 }
 
