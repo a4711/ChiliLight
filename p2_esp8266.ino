@@ -71,7 +71,7 @@ void setup()
 
 	tsystem.add([](){tdist.expire();}, MyIOT::TimerSystem::TimeSpec(5));  // 5 s
   tsystem.add([](){ldist.expire();}, MyIOT::TimerSystem::TimeSpec(5));  // 5 s
-  tsystem.add([](){dhtdist.expire();}, MyIOT::TimerSystem::TimeSpec(5));  // 5 s
+  tsystem.add([](){dhtdist.expire();}, MyIOT::TimerSystem::TimeSpec(10));  // 5 s
 	tsystem.add([](){relay.expire();}, MyIOT::TimerSystem::TimeSpec(0,10e6));  // 10ms
 }
 

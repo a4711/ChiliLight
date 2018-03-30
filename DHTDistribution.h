@@ -58,6 +58,7 @@ private:
   {
     currentHumidity = 0.0;
     currentTemperature = 0.0;
+    bool retVal = true;
 
     unsigned long start = millis();
     int err = SimpleDHTErrSuccess;
@@ -65,12 +66,18 @@ private:
     {
       Serial.print("Read DHT11 failed, err=");
       Serial.println(err);
-      return false;
+      retVal = false;
     }
     unsigned long dt = millis() - start;
 
+    if (95.0 == currentHumidity)
+    {
+      Serial.print("Read DHT11 failed: measure is 95°");
+      retVal = false;
+    }
+
     Serial.print("measuring dht took "); Serial.print(dt); Serial.println(" ms");
-    return true;
+    return retVal;
   }
 
   float currentHumidity = 0.0;
