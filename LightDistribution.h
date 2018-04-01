@@ -2,7 +2,7 @@
  * LightDistribution.h
  *
  *  Created on: 29.10.2017
- *      Author: Hans-Jürgen
+ *      Author: a4711
  */
 
 #ifndef LIGHTDISTRIBUTION_H_

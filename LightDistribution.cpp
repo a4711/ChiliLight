@@ -2,7 +2,7 @@
  * LightDistribution.cpp
  *
  *  Created on: 29.10.2017
- *      Author: Hans-Jürgen
+ *      Author: a4711
  */
 
 #include "LightDistribution.h"
