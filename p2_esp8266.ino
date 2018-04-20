@@ -6,7 +6,7 @@
 #include "src/myiot_ota.h"
 #include "src/myiot_timer_system.h"
 #include "src/myiot_mqtt.h"
-#include "TemperatureDistribution.h"
+#include "src/TemperatureDistribution.h"
 #include "LightDistribution.h"
 #include "DHTDistribution.h"
 #include "relay.h"
