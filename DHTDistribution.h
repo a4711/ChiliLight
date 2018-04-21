@@ -54,6 +54,14 @@ private:
     }
   }
 
+  void publish_error(const char* message)
+  {
+    if (ipublish)
+    {
+      ipublish("dht_error", message);
+    }
+  }
+
   bool measure()
   {
     currentHumidity = 0.0;
@@ -64,15 +72,19 @@ private:
     int err = SimpleDHTErrSuccess;
     if ((err = dht11.read2(OneWire, &currentTemperature, &currentHumidity, NULL)) != SimpleDHTErrSuccess)
     {
-      Serial.print("Read DHT11 failed, err=");
+      const char* msg = "Read DHT11 failed, err=";
+      Serial.print(msg);
       Serial.println(err);
+      publish_error(msg);
       retVal = false;
     }
     unsigned long dt = millis() - start;
 
     if (95.0 == currentHumidity)
     {
-      Serial.print("Read DHT11 failed: measure is 95°");
+      const char* msg = "Read DHT11 failed: measure is 95°";
+      Serial.print(msg);
+      publish_error(msg);
       retVal = false;
     }
 
