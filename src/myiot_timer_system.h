@@ -259,10 +259,7 @@ public:
       last_wakeup = curval;
       this->current.add_milliseconds(addval);
       expire(this->current);
-      if (0 != tick_in_milliseconds)
-      {
-        delay(tick_in_milliseconds);
-      }
+      delay(tick_in_milliseconds);
     }
   }
 

@@ -16,7 +16,8 @@
 // const int D4 = 2; // GPIO2
 const int LED = D4; // LED auf dem Board
 // const int D5 = 14; // GPIO14,
-static const int ONE_WIRE_PIN = D2;
+// const int D6 = 12; // GPIO12,
+static const int ONE_WIRE_PIN = D6;
 
 OneWire oneWire(ONE_WIRE_PIN);
 MyIOT::DeviceConfig config;
@@ -35,7 +36,7 @@ DHTDistribution dhtdist;
 //The setup function is called once at startup of the sketch
 void setup()
 {
-	Serial.begin(115200);
+	Serial.begin(76800);
 	config.setup();
 
 	ota.setup(config.getDeviceName());

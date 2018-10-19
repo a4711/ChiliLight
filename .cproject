@@ -59,8 +59,6 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/ArduinoJson/src}&quot;"/>
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/WiFiManager}&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/DNSServer}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/DNSServer/src}&quot;"/>
@@ -74,6 +72,8 @@
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/PubSubClient/src}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/SimpleDHT}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/WiFiManager}&quot;"/>
                                     								
                                 </option>
                                 								
@@ -105,8 +105,6 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/ArduinoJson/src}&quot;"/>
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/WiFiManager}&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/DNSServer}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/DNSServer/src}&quot;"/>
@@ -120,6 +118,8 @@
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/PubSubClient/src}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/SimpleDHT}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/WiFiManager}&quot;"/>
                                     								
                                 </option>
                                 								
@@ -151,8 +151,6 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/ArduinoJson/src}&quot;"/>
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/WiFiManager}&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/DNSServer}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/DNSServer/src}&quot;"/>
@@ -166,6 +164,8 @@
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/PubSubClient/src}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/SimpleDHT}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/WiFiManager}&quot;"/>
                                     								
                                 </option>
                                 								
@@ -187,7 +187,7 @@
                     					
                     <sourceEntries>
                         						
-                        <entry excluding="libraries/WiFiManager/travis|libraries/ArduinoJson/scripts|libraries/ArduinoJson/fuzzing|libraries/?*/**/?xamples/**|libraries/?*/**/?xtras/**|libraries/?*/**/test*/**|libraries/?*/**/third-party/**|libraries**/._*|libraries/?*/c*/?*|libraries/?*/d*/?*|libraries/?*/D*/?*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        <entry excluding="libraries/WiFiManager/0.14.0|libraries/WiFiManager/travis|libraries/ArduinoJson/scripts|libraries/ArduinoJson/fuzzing|libraries/?*/**/?xamples/**|libraries/?*/**/?xtras/**|libraries/?*/**/test*/**|libraries/?*/**/third-party/**|libraries**/._*|libraries/?*/c*/?*|libraries/?*/d*/?*|libraries/?*/D*/?*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
                         					
                     </sourceEntries>
                     				

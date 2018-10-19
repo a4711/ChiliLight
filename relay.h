@@ -13,9 +13,9 @@ class Relay
   Relay(int xpin = PIN):state(false), last_relay_status(false), last_status_update(0), pin(xpin), start_on(0), seconds_on(0){}
 
   void enable(bool xstate){
-	  Serial.print("enable:");
+	  Serial.print("enable GPIO");
 	  Serial.print(pin);
-	  Serial.print(" ");
+	  Serial.print(": ");
 	  Serial.println(xstate);
 	  state = xstate;
   }
