@@ -74,6 +74,14 @@
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/SimpleDHT}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/WiFiManager}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/Adafruit_BME280_Library}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/SPI}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/Wire}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/Adafruit_Sensor}&quot;"/>
                                     								
                                 </option>
                                 								
@@ -120,6 +128,14 @@
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/SimpleDHT}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/WiFiManager}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/Adafruit_BME280_Library}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/SPI}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/Wire}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/Adafruit_Sensor}&quot;"/>
                                     								
                                 </option>
                                 								
@@ -166,6 +182,14 @@
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/SimpleDHT}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/WiFiManager}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/Adafruit_BME280_Library}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/SPI}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/Wire}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/Adafruit_Sensor}&quot;"/>
                                     								
                                 </option>
                                 								
@@ -187,7 +211,7 @@
                     					
                     <sourceEntries>
                         						
-                        <entry excluding="libraries/WiFiManager/0.14.0|libraries/WiFiManager/travis|libraries/ArduinoJson/scripts|libraries/ArduinoJson/fuzzing|libraries/?*/**/?xamples/**|libraries/?*/**/?xtras/**|libraries/?*/**/test*/**|libraries/?*/**/third-party/**|libraries**/._*|libraries/?*/c*/?*|libraries/?*/d*/?*|libraries/?*/D*/?*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        <entry excluding="libraries/Adafruit_Sensor/.git|libraries/WiFiManager/0.14.0|libraries/WiFiManager/travis|libraries/ArduinoJson/scripts|libraries/ArduinoJson/fuzzing|libraries/?*/**/?xamples/**|libraries/?*/**/?xtras/**|libraries/?*/**/test*/**|libraries/?*/**/third-party/**|libraries**/._*|libraries/?*/c*/?*|libraries/?*/d*/?*|libraries/?*/D*/?*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
                         					
                     </sourceEntries>
                     				

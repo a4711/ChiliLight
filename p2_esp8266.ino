@@ -10,8 +10,10 @@
 #include "LightDistribution.h"
 #include "DHTDistribution.h"
 #include "relay.h"
+#include "src/Bme280.h"
 
 // const int D0 = 16; // GPIO16;
+// const int D1 = 5; // GPIO5;
 // const int D2 = 4; // GPIO4;
 // const int D4 = 2; // GPIO2
 const int LED = D4; // LED auf dem Board
@@ -31,6 +33,7 @@ Relay relay(D0);
 TemperatureDistribution tdist(oneWire);
 LightDistribution ldist;
 DHTDistribution dhtdist;
+Bme280 bme280;
 
 
 //The setup function is called once at startup of the sketch
@@ -50,6 +53,7 @@ void setup()
 	tdist.setup(xpub);
   ldist.setup(xpub);
   dhtdist.setup(xpub);
+  bme280.setup(xpub);
 
 	relay.setup(xpub);
 	mqtt.subscribe("cmd",[](const char*msg){
@@ -72,8 +76,9 @@ void setup()
 
 	tsystem.add([](){tdist.expire();}, MyIOT::TimerSystem::TimeSpec(5));  // 5 s
   tsystem.add([](){ldist.expire();}, MyIOT::TimerSystem::TimeSpec(5));  // 5 s
-  tsystem.add([](){dhtdist.expire();}, MyIOT::TimerSystem::TimeSpec(10));  // 5 s
+  tsystem.add([](){dhtdist.expire();}, MyIOT::TimerSystem::TimeSpec(10));  // 10 s
 	tsystem.add([](){relay.expire();}, MyIOT::TimerSystem::TimeSpec(0,10e6));  // 10ms
+  tsystem.add([](){bme280.expire();}, MyIOT::TimerSystem::TimeSpec(1));  // 1 s
 }
 
 // The loop function is called in an endless loop
