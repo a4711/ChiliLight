@@ -78,7 +78,7 @@ void setup()
   tsystem.add([](){ldist.expire();}, MyIOT::TimerSystem::TimeSpec(5));  // 5 s
   tsystem.add([](){dhtdist.expire();}, MyIOT::TimerSystem::TimeSpec(10));  // 10 s
 	tsystem.add([](){relay.expire();}, MyIOT::TimerSystem::TimeSpec(0,10e6));  // 10ms
-  tsystem.add([](){bme280.expire();}, MyIOT::TimerSystem::TimeSpec(1));  // 1 s
+  tsystem.add([](){bme280.expire();}, MyIOT::TimerSystem::TimeSpec(300));  // 300 s (-> 5 minutes)
 }
 
 // The loop function is called in an endless loop
