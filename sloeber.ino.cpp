@@ -2,7 +2,7 @@
 //This is a automatic generated file
 //Please do not modify this file
 //If you touch this file your change will be overwritten during the next build
-//This file has been generated on 2018-10-19 18:15:10
+//This file has been generated on 2018-12-26 10:40:43
 
 #include "Arduino.h"
 #include "Arduino.h"
@@ -16,7 +16,10 @@
 #include "DHTDistribution.h"
 #include "relay.h"
 #include "src/Bme280.h"
+#include <FastLED.h>
 
+void setup_system() ;
+void setup_status_led() ;
 void setup() ;
 void loop() ;
 

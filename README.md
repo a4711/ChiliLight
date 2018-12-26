@@ -12,11 +12,13 @@ The main control is (switching chili light on/off when light intensity drops bel
 
 <tr><th>GPIO</th><th>NodeMCU label</th><th>function</th></tr>
 
-<tr> <td>16</td> <td>D0</td> <td>Relay</td> </tr>
+<tr> <td>ADC</td> <td>A0</td> <td>LDR meassures light intensity</td> </tr>
+<tr> <td>16</td> <td>D0</td> <td>SSR Relay switching the light on/off</td> </tr>
 <tr> <td>5</td> <td>D1</td> <td>I2C SCL (bme280)</td> </tr>
 <tr> <td>4</td> <td>D2</td> <td>I2C SDA (bme280)</td> </tr>
-<tr> <td>12</td> <td>D6</td> <td>one wire DS18B20</td> </tr>
 <tr> <td>14</td> <td>D5</td> <td>one wire DHT11</td> </tr>
+<tr> <td>12</td> <td>D6</td> <td>one wire DS18B20 (there are two sesors connected: inside + outside)</td> </tr>
+<tr> <td>13</td> <td>D7</td> <td> a single ws2812B LED to show status </tr>
 
 
 <table>

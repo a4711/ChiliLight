@@ -47,14 +47,9 @@
 			<location>H:/arduino/libraries/Adafruit_BME280_Library</location>
 		</link>
 		<link>
-			<name>libraries/Adafruit_Sensor</name>
+			<name>libraries/ArduinoJson_ID64</name>
 			<type>2</type>
-			<location>H:/arduino/libraries/Adafruit_Sensor</location>
-		</link>
-		<link>
-			<name>libraries/ArduinoJson</name>
-			<type>2</type>
-			<location>H:/arduino/libraries/ArduinoJson</location>
+			<location>H:/arduino/libraries/ArduinoJson_ID64</location>
 		</link>
 		<link>
 			<name>libraries/ArduinoOTA</name>
@@ -67,9 +62,9 @@
 			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/esp8266/hardware/esp8266/2.4.2/libraries/DNSServer</locationURI>
 		</link>
 		<link>
-			<name>libraries/DallasTemperature</name>
+			<name>libraries/DallasTemperature_ID54</name>
 			<type>2</type>
-			<location>H:/arduino/libraries/DallasTemperature</location>
+			<location>H:/arduino/libraries/DallasTemperature_ID54</location>
 		</link>
 		<link>
 			<name>libraries/ESP8266WebServer</name>
@@ -87,9 +82,14 @@
 			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/esp8266/hardware/esp8266/2.4.2/libraries/ESP8266mDNS</locationURI>
 		</link>
 		<link>
-			<name>libraries/OneWire</name>
+			<name>libraries/FastLED</name>
 			<type>2</type>
-			<location>H:/arduino/libraries/OneWire</location>
+			<locationURI>ECLIPSE_HOME/arduinoPlugin/libraries/FastLED/3.2.1</locationURI>
+		</link>
+		<link>
+			<name>libraries/OneWire_ID1</name>
+			<type>2</type>
+			<location>H:/arduino/libraries/OneWire_ID1</location>
 		</link>
 		<link>
 			<name>libraries/PubSubClient</name>
@@ -97,14 +97,19 @@
 			<location>H:/arduino/libraries/PubSubClient</location>
 		</link>
 		<link>
+			<name>libraries/PubSubClient_ID89</name>
+			<type>2</type>
+			<location>H:/arduino/libraries/PubSubClient_ID89</location>
+		</link>
+		<link>
 			<name>libraries/SPI</name>
 			<type>2</type>
 			<locationURI>ECLIPSE_HOME/arduinoPlugin/packages/esp8266/hardware/esp8266/2.4.2/libraries/SPI</locationURI>
 		</link>
 		<link>
-			<name>libraries/SimpleDHT</name>
+			<name>libraries/SimpleDHT_ID849</name>
 			<type>2</type>
-			<location>H:/arduino/libraries/SimpleDHT</location>
+			<location>H:/arduino/libraries/SimpleDHT_ID849</location>
 		</link>
 		<link>
 			<name>libraries/WiFiManager</name>

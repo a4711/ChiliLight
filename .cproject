@@ -25,7 +25,7 @@
             			
             <storageModule moduleId="cdtBuildSystem" version="4.0.0">
                 				
-                <configuration artifactName="${ProjName}" buildProperties="" description="" id="io.sloeber.core.toolChain.release.2135647967" name="Release" parent="org.eclipse.cdt.build.core.emptycfg">
+                <configuration artifactName="${ProjName}" buildProperties="" description="" id="io.sloeber.core.toolChain.release.2135647967" name="Release" optionalBuildProperties="" parent="org.eclipse.cdt.build.core.emptycfg">
                     					
                     <folderInfo id="io.sloeber.core.toolChain.release.2135647967.41392179" name="/" resourcePath="">
                         						
@@ -37,7 +37,7 @@
                             							
                             <tool id="io.sloeber.tool.sketch.compiler.cpp.488854593" name="Arduino C++ Compiler" superClass="io.sloeber.tool.sketch.compiler.cpp">
                                 								
-                                <option id="io.sloeber.compiler.cpp.sketch.option.incpath.1117215361" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="io.sloeber.compiler.cpp.sketch.option.incpath.1117215361" name="Include Paths (-I)" superClass="io.sloeber.compiler.cpp.sketch.option.incpath" valueType="includePath">
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/core/core}&quot;"/>
                                     									
@@ -55,23 +55,11 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/ESP8266WiFi/src}&quot;"/>
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/ArduinoJson}&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/ArduinoJson/src}&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/DNSServer}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/DNSServer/src}&quot;"/>
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/DallasTemperature}&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/OneWire}&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/PubSubClient}&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/PubSubClient/src}&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/SimpleDHT}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/WiFiManager}&quot;"/>
                                     									
@@ -81,7 +69,17 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/Wire}&quot;"/>
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/Adafruit_Sensor}&quot;"/>
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/ArduinoJson_ID64/src}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/DallasTemperature_ID54}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/OneWire_ID1}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/PubSubClient_ID89/src}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/SimpleDHT_ID849}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/FastLED}&quot;"/>
                                     								
                                 </option>
                                 								
@@ -91,7 +89,7 @@
                             							
                             <tool id="io.sloeber.tool.compiler.c.1077213211" name="Arduino C Compiler" superClass="io.sloeber.tool.compiler.c">
                                 								
-                                <option id="io.sloeber.compiler.c.sketch.option.incpath.1147885522" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="io.sloeber.compiler.c.sketch.option.incpath.1147885522" name="Include Paths (-I)" superClass="io.sloeber.compiler.c.sketch.option.incpath" valueType="includePath">
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/core/core}&quot;"/>
                                     									
@@ -109,23 +107,11 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/ESP8266WiFi/src}&quot;"/>
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/ArduinoJson}&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/ArduinoJson/src}&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/DNSServer}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/DNSServer/src}&quot;"/>
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/DallasTemperature}&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/OneWire}&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/PubSubClient}&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/PubSubClient/src}&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/SimpleDHT}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/WiFiManager}&quot;"/>
                                     									
@@ -135,7 +121,17 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/Wire}&quot;"/>
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/Adafruit_Sensor}&quot;"/>
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/ArduinoJson_ID64/src}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/DallasTemperature_ID54}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/OneWire_ID1}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/PubSubClient_ID89/src}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/SimpleDHT_ID849}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/FastLED}&quot;"/>
                                     								
                                 </option>
                                 								
@@ -145,7 +141,7 @@
                             							
                             <tool id="io.sloeber.tool.sketch.compiler.s.1905369444" name="Arduino Assembler" superClass="io.sloeber.tool.sketch.compiler.s">
                                 								
-                                <option id="io.sloeber.compiler.asm.sketch.option.incpath.1227725902" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="io.sloeber.compiler.asm.sketch.option.incpath.1227725902" name="Include Paths (-I)" superClass="io.sloeber.compiler.asm.sketch.option.incpath" valueType="includePath">
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/core/core}&quot;"/>
                                     									
@@ -163,23 +159,11 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/ESP8266WiFi/src}&quot;"/>
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/ArduinoJson}&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/ArduinoJson/src}&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/DNSServer}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/DNSServer/src}&quot;"/>
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/DallasTemperature}&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/OneWire}&quot;"/>
-                                    									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/PubSubClient}&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/PubSubClient/src}&quot;"/>
-                                    									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/SimpleDHT}&quot;"/>
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/WiFiManager}&quot;"/>
                                     									
@@ -189,7 +173,17 @@
                                     									
                                     <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/Wire}&quot;"/>
                                     									
-                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/Adafruit_Sensor}&quot;"/>
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/ArduinoJson_ID64/src}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/DallasTemperature_ID54}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/OneWire_ID1}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/PubSubClient_ID89/src}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/SimpleDHT_ID849}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/p2_esp8266/libraries/FastLED}&quot;"/>
                                     								
                                 </option>
                                 								
@@ -211,7 +205,7 @@
                     					
                     <sourceEntries>
                         						
-                        <entry excluding="libraries/Adafruit_Sensor/.git|libraries/WiFiManager/0.14.0|libraries/WiFiManager/travis|libraries/ArduinoJson/scripts|libraries/ArduinoJson/fuzzing|libraries/?*/**/?xamples/**|libraries/?*/**/?xtras/**|libraries/?*/**/test*/**|libraries/?*/**/third-party/**|libraries**/._*|libraries/?*/c*/?*|libraries/?*/d*/?*|libraries/?*/D*/?*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        <entry excluding="libraries/FastLED/platforms|libraries/FastLED/lib8tion|libraries/FastLED/docs|libraries/OneWire_ID1/util|libraries/ArduinoJson_ID64/.github|libraries/Adafruit_Sensor/.git|libraries/WiFiManager/0.14.0|libraries/WiFiManager/travis|libraries/ArduinoJson/scripts|libraries/ArduinoJson/fuzzing|libraries/?*/**/?xamples/**|libraries/?*/**/?xtras/**|libraries/?*/**/test*/**|libraries/?*/**/third-party/**|libraries**/._*|libraries/?*/c*/?*|libraries/?*/d*/?*|libraries/?*/D*/?*" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
                         					
                     </sourceEntries>
                     				
