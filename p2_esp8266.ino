@@ -59,7 +59,7 @@ void setup_status_led()
 {
 	FastLED.addLeds<WS2812B, 7, GRB>(leds, 1); // strange: use the nodeMCU number to D7 to get output on GPIO13
 	leds[0] =  CRGB::Cyan;
-	FastLED.setBrightness(255);
+	FastLED.setBrightness(30);
 	FastLED.show();
 
 	mqtt.subscribe("rgb", [](const char*msg)

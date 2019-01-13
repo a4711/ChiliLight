@@ -32,7 +32,7 @@ class TemperatureDistribution
 
       Serial << "TemperatureDistribution::setup ... ";
       controller.begin();
-      controller.setResolution(12);
+      controller.setResolution(11);
       Serial << "Device Count: " << controller.getDeviceCount() << "\n";
       detect();
     }
