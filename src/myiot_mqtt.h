@@ -11,7 +11,7 @@ namespace MyIOT
 {
 class Mqtt : public MyIOT::ITimer
 {
-  enum {MAX_NUMBER_OF_SUBSCRIPTIONS = 5};
+  enum {MAX_NUMBER_OF_SUBSCRIPTIONS = 8};
 
   
 public:

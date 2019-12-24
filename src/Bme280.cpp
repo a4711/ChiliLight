@@ -7,7 +7,7 @@
 
 #include "Bme280.h"
 #include <Arduino.h>
-#include <Adafruit_Sensor.h>
+//#include <Adafruit_Sensor.h>
 #include <Adafruit_BME280.h>
 
 Bme280::Bme280 (): bme(nullptr)
